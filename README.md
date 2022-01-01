@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click me](https://your-solution-url.com)
-- Live Site URL: [Click me](https://your-live-site-url.com)
+- Solution URL: [Click me](https://github.com/Schmelzofen/huddle_landingpage.git)
+- Live Site URL: [Click me](https://schmelzofen.github.io/huddle_landingpage/)
 
 ## My process
 
