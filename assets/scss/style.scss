@@ -50,9 +50,9 @@ main {
         section {
             &:nth-of-type(1) {
                 text-align: center;
-                padding: 15% 8% 0% 8%;
+                padding: 15% 8% 0% 0%;
 
-                h2 {
+                h1 {
                     font-weight: lighter;
                     padding: 0 0 5% 0;
                 }
@@ -119,29 +119,38 @@ main {
 
         section {
             article {
-                width: 200%;
+                padding: 0 5% 0 0;
+                margin-bottom: 5%;
+
+                img {
+                    width: 55vw;
+                    padding: 0% 0 0 10%;
+                }
             }
 
             section {
                 &:nth-of-type(1) {
                     text-align: left;
-                    padding: 6% 5% 0% 0%;
-                    font-size: 3vh;
+                    padding: 5% 2% 0% 0%;
+                    margin: 1% 0 0 -2%;
 
-                    h2 {
+                    h1 {
                         font-weight: lighter;
-                        padding: 0 8% 5% 0;
+                        padding: 0 0% 5% 0;
+                        font-size: 5.9vh;
                     }
 
                     p {
-                        font-size: 2vh;
+                        font-size: 2.4vh;
                         padding: 0 0% 0 0;
+                        margin-top: 10px;
                     }
                 }
 
                 &:nth-of-type(2) {
                     text-align: right;
-                    padding: 45% 0 0% 0;
+                    padding: 0;
+                    margin: 25% 10% 0 0;
 
                     i {
                         margin-left: 15px;
@@ -154,7 +163,8 @@ main {
             text-align: left;
 
             button {
-                padding: 4% 20%;
+                padding: 3% 14%;
+                font-size: 2.5vh;
             }
         }
 

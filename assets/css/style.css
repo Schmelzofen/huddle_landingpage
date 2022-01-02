@@ -42,9 +42,9 @@ main section article img {
 }
 main section section:nth-of-type(1) {
   text-align: center;
-  padding: 15% 8% 0% 8%;
+  padding: 15% 8% 0% 0%;
 }
-main section section:nth-of-type(1) h2 {
+main section section:nth-of-type(1) h1 {
   font-weight: lighter;
   padding: 0 0 5% 0;
 }
@@ -95,24 +95,32 @@ main div button:hover {
     padding: 0% 0 0% 5%;
   }
   main section article {
-    width: 200%;
+    padding: 0 5% 0 0;
+    margin-bottom: 5%;
+  }
+  main section article img {
+    width: 55vw;
+    padding: 0% 0 0 10%;
   }
   main section section:nth-of-type(1) {
     text-align: left;
-    padding: 6% 5% 0% 0%;
-    font-size: 3vh;
+    padding: 5% 2% 0% 0%;
+    margin: 1% 0 0 -2%;
   }
-  main section section:nth-of-type(1) h2 {
+  main section section:nth-of-type(1) h1 {
     font-weight: lighter;
-    padding: 0 8% 5% 0;
+    padding: 0 0% 5% 0;
+    font-size: 5.9vh;
   }
   main section section:nth-of-type(1) p {
-    font-size: 2vh;
+    font-size: 2.4vh;
     padding: 0 0% 0 0;
+    margin-top: 10px;
   }
   main section section:nth-of-type(2) {
     text-align: right;
-    padding: 45% 0 0% 0;
+    padding: 0;
+    margin: 25% 10% 0 0;
   }
   main section section:nth-of-type(2) i {
     margin-left: 15px;
@@ -121,7 +129,8 @@ main div button:hover {
     text-align: left;
   }
   main div button {
-    padding: 4% 20%;
+    padding: 3% 14%;
+    font-size: 2.5vh;
   }
 }
 
