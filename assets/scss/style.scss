@@ -51,15 +51,18 @@ main {
         section {
             &:nth-of-type(1) {
                 text-align: center;
-                padding: 15% 8% 0% 0%;
+                padding: 15% 0% 0% 0%;
 
                 h1 {
                     font-weight: lighter;
-                    padding: 0 0 5% 0;
+                    padding: 0 12%;
+                    text-align: center;
+                    font-size: 4vh;
                 }
 
                 p {
                     font-size: 2.4vh;
+                    padding: 4% 5%;
                 }
             }
 
@@ -139,6 +142,7 @@ main {
                         font-weight: lighter;
                         padding: 0 0% 5% 0;
                         font-size: 5.9vh;
+                        text-align: left;
                     }
 
                     p {
