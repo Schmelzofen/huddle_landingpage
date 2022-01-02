@@ -113,12 +113,13 @@ main {
         background: url("../img/bg-desktop.svg") left no-repeat,
             hsl(257, 40%, 49%);
         height: 100vh;
-        padding: 2% 0 0% 0;
+        padding: 0% 0 0% 0;
 
 
         >img {
             width: 20%;
-            padding: 0% 0 0% 5%;
+            padding: 3.5% 0 0% 5%;
+            margin-bottom: -2%;
         }
 
         section {
@@ -155,7 +156,7 @@ main {
                 &:nth-of-type(2) {
                     text-align: right;
                     padding: 0;
-                    margin: 25% 10% 0 0;
+                    margin: 21% 10% 0 0;
 
                     i {
                         margin-left: 15px;
