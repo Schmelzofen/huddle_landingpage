@@ -27,6 +27,7 @@ main {
   background: url("../img/bg-mobile.svg") top no-repeat, #674baf;
   color: white;
   font-family: Poppins;
+  overflow: hidden;
 }
 main > img {
   width: 45%;
